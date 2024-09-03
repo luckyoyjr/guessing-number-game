@@ -17,6 +17,9 @@ Welcome to the **Number Guessing Game**! This is a simple, fun, and interactive 
 - **Python**
 - **Pygame**
 - **Pygbag**
+- **JavaScript**
+- **HTML & CSS**
+- **Bootstrap**
 - **GitHub Pages**
 
 ## Contribute
