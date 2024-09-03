@@ -27,7 +27,8 @@
         }
 
         .score {
-            background-color: var(--bs-teal);
+            background: linear-gradient(45deg, #007bff, #17a2b8);
+            display: inline-block;
         }
 
         input {
@@ -36,7 +37,7 @@
             min-width: 60%;
             box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
             margin-top: 1rem;
-            border: 1px solid var(--primary);
+            border: 1px solid #007bff;
             outline: none;
         }
 
@@ -61,9 +62,9 @@
 <body>
     <div class="container text-center">
         <h1 class="fw-bold" id="title">Welcome to the Number Guessing Game!</h1>
-        <div class="score text-light fw-bold fs-3 p-3 mb-3 rounded-2" id="score">Your Score: 0</div>
+        <div class="score text-light fw-bold fs-3 p-3 mb-4 rounded-2" id="score">Your Score: 0</div>
         <div class="fw-bold">
-            <label for="guess" class="fs-4">Your Guess:</label>
+            <label for="guess" class="fs-4 me-2">Your Guess:</label>
             <input type="text" class="shadow-sm" id="guess" placeholder="Enter your guess (1 - 100)">
         </div>
         <p class="text-danger fw-bold py-3" id="attempts">Attempts Left: 7</p>
